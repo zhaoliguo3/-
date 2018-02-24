@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://172.18.10.88:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+#  当字段为空时不显示
+#  jackson:
+#    default-property-inclusion: non_null
+server:
+  context-path: /sell
+
+#debug日志级别 可查看springboot的自动配置
+debug: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
