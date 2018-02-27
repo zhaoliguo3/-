@@ -47,4 +47,6 @@ public class BuyerServiceImpl implements BuyerService{
     public OrderDTO findOrderOne(String openid, String orderId) {
         return checkOwnerOrder(openid,orderId);
     }
+
+
 }

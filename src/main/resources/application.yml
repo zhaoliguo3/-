@@ -4,8 +4,8 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://172.18.10.88:3306/sell?characterEncoding=utf-8&useSSL=false
-  jpa:
-    show-sql: true
+#  jpa:
+#    show-sql: true
 
 #  当字段为空时不显示
 #  jackson:
@@ -14,8 +14,11 @@ server:
   context-path: /sell
 
 #debug日志级别 可查看springboot的自动配置
-debug: true
+#debug: true
 
+wechat:
+  mpAppId: wxefdae6d2e8be5a9b
+  mpAppSecret: ec60515bb692a83aaa687be0ded23b62
 
 
 
